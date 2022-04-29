@@ -315,12 +315,13 @@ img.with-border{
 	font-weight: 300;
 	text-transform: uppercase;
 	text-align: center;
-	letter-spacing: 0.25em;
+	letter-spacing: 0.3em;
 	color: #bdbebd;
+	opacity: 0.8;
 }
 
 .title-kr{
-	font-family: 'MaruBuriSemiBold', serif;
+	font-family: 'MaruBuri', serif;
 }
 
 .emphasize{
@@ -2537,7 +2538,7 @@ form .has-error .btn-primary{
 
 #greeting{
 	padding:140px 0 100px 0;
-	background-color: #f6f6f6;
+	background-color: #f9f9f9;
 }
 
 #couple{
@@ -2546,7 +2547,7 @@ form .has-error .btn-primary{
 
 #parents{
 	padding:140px 0 100px 0;
-	background-color: #f6f6f6;
+	background-color: #f9f9f9;
 }
 
 #parents-1{
@@ -2584,19 +2585,21 @@ form .has-error .btn-primary{
 
 .interview-btn{
 	font-size: 18px;
-	font-family: 'MaruBuriSemiBold', serif;
+	font-family: 'MaruBuri', serif;
 	text-decoration: none;
-	background-color: #222222;
+	background-color: #254252;
+	/*background-color: #222222;*/
 	border: none;
 	color: #FFF;
-	padding: 25px 20px;
-	width: 400px;
-
+	padding: 25px 30px;
+	width: 500px;
+	margin-top: 20px;
 }
 
 #interview-btn-en{
 	float: left;
-	color: #d0bfa8;
+	/*color: #d0bfa8;*/
+	color: #eab56f;
 	font-family: 'EB Garamond', serif;
 	font-weight: 400;
 	font-size: 0.8em;
@@ -2604,8 +2607,61 @@ form .has-error .btn-primary{
 
 #interview-btn-kr{
 	float: right;
-	color: #FFF;
+	color: #fff;
 }
+
+/* ----------------------------------------------*/
+/* CALENDER IN GREETING SECTION		          	 */
+/* ----------------------------------------------*/
+.calendar{
+	box-sizing: border-box;
+}
+
+.ul{
+	list-style-type: none;
+}
+
+.weekdays {
+	margin: 0;
+	padding: 10px 0px;
+	background-color: transparent;
+}
+  
+.weekdays li {
+	display: inline-block;
+	width: 13.6%;
+	color: #666;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'MaruBuri';
+}
+  
+.days {
+	padding: 10px 0;
+	background-color: transparent;
+	margin: 0;
+  }
+  
+.days li {
+	list-style-type: none;
+	display: inline-block;
+	width: 13.6%;
+	text-align: center;
+	margin-bottom: 5px;
+	font-size:20px;
+	color: #a6a6a6;
+	padding: 10px 0;
+	font-family: 'Arita-buri-SemiBold', serif;
+}
+  
+.days li .active {
+	padding: 13px 19px;
+	border: 1px solid #F3D1D7;
+	border-radius: 50%; 
+	background-color: #F3D1D7;
+	color: #000 !important;
+}
+
 
 /* ----------------------------------------------*/
 /* 12.2 Location & Countdown Section			 */
@@ -2687,7 +2743,7 @@ form .has-error .btn-primary{
 /* ----------------------------------------------*/
 #rsvp{
 	padding:85px 0;
-	background-color:#f6f6f6;
+	background-color:#f9f9f9;
 }
 
 /* ----------------------------------------------*/
@@ -2828,7 +2884,6 @@ footer .image-divider.fixed-height{
 }
 
 #banner-name{
-	letter-spacing: 0.15em; 
 	font-family: 'MaruBuriExtraLight', serif;
 	font-size: 20px;
 }
@@ -2980,7 +3035,7 @@ footer .image-divider.fixed-height{
 /* ----------------------------------------------*/
 #where-when{
 	padding: 100px 0 80px 0;
-	background-color: #f6f6f6;
+	background-color: #f9f9f9;
 }
 
 #where-when .kakao-map{
@@ -3043,6 +3098,7 @@ footer .image-divider.fixed-height{
 /* ----------------------------------------------*/
 #gallery-section{
 	padding: 140px 0;
+	background-color: #f9f6f6;
 }
 
 #gallery-section .photo-item{
@@ -3155,7 +3211,7 @@ h2#dont-miss-it-title{
 /* ----------------------------------------------*/
 #gift-section{
 	padding: 140px 0 200px 0; 
-	background-color:#FFF;
+	background-color:#fff;
 }
 
 #gift-info{
@@ -3288,7 +3344,7 @@ h2#dont-miss-it-title{
 	padding: 30px 50px 20px 40px;
 	font-family: 'Noto Sans KR', sans-serif;
 	font-size: 17px;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 .btninner {
@@ -3301,7 +3357,7 @@ h2#dont-miss-it-title{
 /* ----------------------------------------------*/
 #rsvp-section{
 	padding: 140px 0;
-	background-color:#f6f6f6;
+	background-color:#f9f9f9;
 }
 
 #attending {
@@ -4008,6 +4064,10 @@ p{
 	margin-bottom: 60px;
 }
 
+#greeting .section-title{
+	margin-bottom: 70px;
+}
+
 /* ----------------------------------------------*/
 /* Couple & Parents Section							 */
 /* ----------------------------------------------*/						
@@ -4026,7 +4086,17 @@ p{
 }
 
 #couple {
-	padding: 80px 30px 60px 30px;
+	padding: 80px 30px 100px 30px;
+}
+
+.interview-btn{
+	font-size: 16px;
+	width: 400px;
+	padding: 25px 20px;
+}
+
+#gallery-section {
+	padding: 80px 0px 100px 0px;
 }
 
 #parents {
@@ -4048,6 +4118,13 @@ p{
 
 .parents-name .pink-heart{
 	font-size: 15px;
+}
+/* ----------------------------------------------*/
+/* CALENDAR							 */
+/* ----------------------------------------------*/	
+
+@media screen and (max-width:720px) {
+	.weekdays li, .days li {width: 13.1%;}
 }
 
 /* ----------------------------------------------*/
@@ -4109,14 +4186,14 @@ h2#dont-miss-it-title{
 /* Location Section						 */
 /* ----------------------------------------------*/
 #where-when{
-	padding: 100px 30px 60px 30px;
+	padding: 100px 30px 100px 30px;
 }
 #where-when .section-title{
 	margin-bottom: 20px;
 }
 
 #gift-section{
-	padding: 100px 30px 60px 30px;
+	padding: 100px 30px 120px 30px;
 }
 
 #where-when .location h3{
@@ -4314,6 +4391,10 @@ p{
 	margin-bottom:50px;
 }
 
+#greeting .section-title{
+	margin-bottom: 70px;
+}
+
 /*===============================================*/
 /* 10 MASONRY GALLERY							 */
 /*===============================================*/
@@ -4331,7 +4412,7 @@ p{
 }
 
 #couple{
-	padding:60px 5px 40px 5px;
+	padding:60px 5px 80px 5px;
 }
 
 #parents{
@@ -4382,6 +4463,14 @@ p{
 	font-size: 12px;
 }
 
+/* ----------------------------------------------*/
+/* CALENDAR							 */
+/* ----------------------------------------------*/	
+
+@media screen and (max-width: 420px) {
+	.weekdays li, .days li {width: 12.5%;}
+	.days li .active {padding: 2px;}
+  }
 
 /* ----------------------------------------------*/
 /* 12.2 Location & Countdown Section			 */
@@ -4459,7 +4548,7 @@ p{
 /* 14.4 Where When Section						 */
 /* ----------------------------------------------*/
 #where-when{
-	padding: 60px 5px 40px 5px;
+	padding: 60px 5px 80px 5px;
 }
 
 #where-when .kakao-map{
@@ -4579,7 +4668,7 @@ h2#dont-miss-it-title{
 /* 14.10 Gift Section							 */
 /* ----------------------------------------------*/
 #gift-section{
-	padding: 60px 5px 60px 5px;
+	padding: 60px 5px 100px 5px;
 }
 
 /* ----------------------------------------------*/
@@ -4812,7 +4901,7 @@ h2#dont-miss-it-title{
 
 .interview-btn{
 	font-size: 11px;
-	width: 230px;
+	width: 220px;
 	padding: 15px 10px;
 }
 
@@ -4855,6 +4944,14 @@ h2#dont-miss-it-title{
 .parents-name .pink-heart{
 	font-size: 10px;
 }
+
+/* ----------------------------------------------*/
+/* CALENDAR						 */
+/* ----------------------------------------------*/
+
+@media screen and (max-width: 290px) {
+	.weekdays li, .days li {width: 12.2%;}
+  }
 
 /* 14.3 Our Story Section						 */
 /* ----------------------------------------------*/
