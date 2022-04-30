@@ -921,7 +921,7 @@ img.with-border{
 	height:100%; 
 	border-radius:0%; 
 	/*background-color: #fa7991; */
-	color:#666; 
+	color:#666;
 	text-align:left; 
 	
 }
@@ -936,6 +936,8 @@ img.with-border{
 	font-size:20px;
 	font-family: 'EB Garamond', serif;
 	font-weight: 700;
+	color: #355e75;
+
 }
 
 .css-logo-text > i {
@@ -1651,8 +1653,8 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 
 .banner-text.light{
 	color:#FFF;
-	border-top:medium double #fff; 
-	border-bottom:medium double #fff;
+	border-top:medium double rgb(255,255,255, 0.5);
+	border-bottom:medium double rgb(255,255,255, 0.5);
 }
 
 .banner-text.light *{
@@ -1676,7 +1678,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 	margin:auto;
 	margin-top:20px;
 	margin-bottom:20px;
-	text-align:center
+	text-align:center;
 }
 
 .banner-text.withlove:before{
