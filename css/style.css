@@ -378,8 +378,7 @@ img.with-border{
 	position:relative;
 	height:inherit;
 	width:100%;
-	padding:0 30px 0 40px;	
-	bottom: 30px
+	padding:0px 30px 0px 40px;	
 }
 
 /* 02.1.3 Top Bar 								 */
@@ -452,16 +451,17 @@ img.with-border{
 	position:relative; 
 	width:20%; 
 	height:auto; 
-	margin-top:40px; 
+	/* margin-top:40px; */ /* Deleted */
 }
 
 #nav-menu{	
 	list-style-type:none; 
 	margin:0; 
-	padding:45px 0 0 0;
+	/* padding:45px 0 0 0; */ /* Deleted */
 	font-family: 'MaruBuri', serif;
 	font-size:13px;
 	z-index:1000;
+	vertical-align: middle;
 }
 
 /* 02.2.1 Nav Center 							 */
@@ -534,7 +534,7 @@ img.with-border{
 
 #nav-menu > li a{
 	display:inline-block;
-	padding:17px;
+	padding:30px 17px; /* Nav Bar Eidt */
 	color:#666;
 	text-decoration:none;
 }
@@ -921,6 +921,7 @@ img.with-border{
 	border-radius:0%; 
 	/*background-color: #fa7991; */
 	text-align:left; 
+	padding: 25px 0px;
 	
 }
 
@@ -930,7 +931,6 @@ img.with-border{
 
 .css-logo-text{
 	padding-top:0px; 
-	margin-top: 16px;
 	font-size:20px;
 	font-family: 'EB Garamond', serif;
 	font-weight: 700;
@@ -3516,8 +3516,8 @@ button.mfp-close, button.mfp-arrow {
 /* 02.1.2 Fluid-width */
 #nav-bar.fluid-width #nav-wrapper,
 #nav-bar.fixed-width #nav-wrapper{
-	padding:20px 20px;
-	bottom: 20px;
+	padding:0 20px 0 30px;
+	/*bottom: 20px;*/
 	/* padding: 20px 30px */
 }
 
@@ -3528,7 +3528,7 @@ button.mfp-close, button.mfp-arrow {
 	margin:0;
 	width: 80%;
 	height: auto;
-	margin-top: 20px;
+	/*margin-top: 20px;*/
 }
 .css-logo{
 	display: none;
@@ -3540,6 +3540,7 @@ button.mfp-close, button.mfp-arrow {
 	font-size:18px;
 	font-family: 'EB Garamond', serif;
 	font-weight: 700;
+	padding: 16px 0px;
 }
 
 #nav-menu { display: none }
@@ -4357,7 +4358,6 @@ p{
 
 .mobile-logo{
 	display: block;
-	font-size: 16px;
 }
 
 #mobile-nav{
@@ -4868,7 +4868,9 @@ h2#dont-miss-it-title{
 }
 
 .mobile-logo{
-	font-size: 13px;
+	display: block;
+	font-size: 16px;
+	padding: 18px 0px;
 }
 
 #mobile-nav{
