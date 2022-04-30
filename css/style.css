@@ -316,7 +316,7 @@ img.with-border{
 	text-transform: uppercase;
 	text-align: center;
 	letter-spacing: 0.3em;
-	color: #bdbebd;
+	color: #a8a8a8;
 	opacity: 0.8;
 }
 
@@ -1539,7 +1539,7 @@ hr.line-divider{
 }*/
 
 .pink-heart{
-	/*color:#f0394d;*/ 
+	color:#f0394d; /* default */
 	font-size:18px; 
 	position:relative; 
 	z-index:3;
@@ -1993,6 +1993,11 @@ a:hover .de-icon.effect3{
 .photo-item {
 	position:relative;
 	overflow:hidden;
+}
+
+.photo-item.frame-border {
+	background-color:transparent;
+	border-radius: 10px; 
 }
 
 #couple .photo-item.frame-border {
@@ -2538,7 +2543,8 @@ form .has-error .btn-primary{
 
 #greeting{
 	padding:140px 0 100px 0;
-	background-color: #f9f9f9;
+	background-color: #f8f5f5;
+	/*background-color: #f9f9f9;*/
 }
 
 #couple{
@@ -2591,9 +2597,11 @@ form .has-error .btn-primary{
 	/*background-color: #222222;*/
 	border: none;
 	color: #FFF;
-	padding: 25px 30px;
+	padding: 25px 35px;
 	width: 500px;
 	margin-top: 20px;
+	border: transparent;
+	border-radius: 70px;
 }
 
 #interview-btn-en{
@@ -3035,7 +3043,7 @@ footer .image-divider.fixed-height{
 /* ----------------------------------------------*/
 #where-when{
 	padding: 100px 0 80px 0;
-	background-color: #f9f9f9;
+	background-color: #f8f5f5;
 }
 
 #where-when .kakao-map{
@@ -3098,7 +3106,7 @@ footer .image-divider.fixed-height{
 /* ----------------------------------------------*/
 #gallery-section{
 	padding: 140px 0;
-	background-color: #f9f6f6;
+	background-color: #f8f5f5;
 }
 
 #gallery-section .photo-item{
@@ -3169,7 +3177,7 @@ h2#dont-miss-it-title{
 /* ----------------------------------------------*/
 #more-events{
 	padding: 140px 0;
-	background-color: #f6f6f6;
+	background-color: #eee6e6;
 }
 
 #events-carousel .item{
@@ -4092,7 +4100,8 @@ p{
 .interview-btn{
 	font-size: 16px;
 	width: 400px;
-	padding: 25px 20px;
+	padding: 25px 30px;
+	
 }
 
 #gallery-section {
@@ -4123,9 +4132,11 @@ p{
 /* CALENDAR							 */
 /* ----------------------------------------------*/	
 
-@media screen and (max-width:720px) {
-	.weekdays li, .days li {width: 13.1%;}
+
+.weekdays li, .days li {
+	width: 13.1%;
 }
+
 
 /* ----------------------------------------------*/
 /* Our Story Section							 */
@@ -4136,7 +4147,7 @@ p{
 }
 
 #more-events{
-	padding: 80px 0 60px 0;
+	padding: 80px 0 80px 0;
 }
 
 #our-story p{
@@ -4408,7 +4419,7 @@ p{
 /* ----------------------------------------------*/	
 
 #greeting{
-	padding:60px 0px 40px 0px;
+	padding:60px 0px 60px 0px;
 }
 
 #couple{
@@ -4416,13 +4427,13 @@ p{
 }
 
 #parents{
-	padding:60px 5px 40px 5px;
+	padding:60px 5px 60px 5px;
 }
 
 .interview-btn{
 	font-size: 14px;
-	width: 300px;
-	padding: 20px 15px;
+	width: 280px;
+	padding: 20px 20px;
 }
 
 .couple-name{
@@ -4467,10 +4478,13 @@ p{
 /* CALENDAR							 */
 /* ----------------------------------------------*/	
 
-@media screen and (max-width: 420px) {
-	.weekdays li, .days li {width: 12.5%;}
-	.days li .active {padding: 2px;}
-  }
+.weekdays li, .days li {
+	width: 12.5%;
+}
+.days li .active {
+	padding: 2px;
+}
+
 
 /* ----------------------------------------------*/
 /* 12.2 Location & Countdown Section			 */
@@ -4635,7 +4649,7 @@ h2#dont-miss-it-title{
 /* 14.7 More Events Section						 */
 /* ----------------------------------------------*/
 #more-events{
-	padding: 60px 0px 40px 0px;
+	padding: 60px 0px 60px 0px;
 }
 
 
@@ -4902,7 +4916,7 @@ h2#dont-miss-it-title{
 .interview-btn{
 	font-size: 11px;
 	width: 220px;
-	padding: 15px 10px;
+	padding: 15px 15px;
 }
 
 
