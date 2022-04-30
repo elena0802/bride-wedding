@@ -2606,7 +2606,6 @@ form .has-error .btn-primary{
 
 #interview-btn-en{
 	float: left;
-	/*color: #d0bfa8;*/
 	color: #eab56f;
 	font-family: 'EB Garamond', serif;
 	font-weight: 400;
@@ -3269,8 +3268,8 @@ h2#dont-miss-it-title{
 
 /* Gift for Bride */
 .accordion2 {
-	background-color: #F1EDEE;
-	color: #b85675;
+	background-color: #f2e7e7;
+	color: #af4d5d;
 	cursor: pointer;
 	padding: 18px;
 	width: 100%;
@@ -3279,7 +3278,7 @@ h2#dont-miss-it-title{
 	outline: none;
 	font-size: 20px;
 	transition: 0.4s;
-	border: 0.5px #F4DFD5;
+	border: 0.5px #ebdbdb;
 	border-style: solid solid dashed solid;
 	margin-top: 15px;
   }
@@ -3287,7 +3286,7 @@ h2#dont-miss-it-title{
 .accordion2:after {
 	font-family:'FontAwesome';
 	content: '\f107';
-	color: #b85675;
+	color: #af4d5d;
 	font-weight: bold;
 	font-size: 22px;
 	float: right;
@@ -3299,11 +3298,11 @@ h2#dont-miss-it-title{
   }
   
 .panel2 {
-	background-color: #F1EDEE;
+	background-color: #f9f4f4;
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
-	border: 0.5px solid #F4DFD5;
+	border: 0.5px solid #ebdbdb;
   }
 
 .kakaopaybtn {
