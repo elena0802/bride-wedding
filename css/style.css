@@ -4728,20 +4728,20 @@ h2#dont-miss-it-title{
 }
 
 .kakaopaybtn{
-	font-size: 13px;
+	font-size: 12px;
 	width: 130px;
-	padding: 12px 0px;
+	padding: 12px 0px 13px 0px;
 }
 
 .kakaopaybtn a i.de-icon-comment{
-	margin-right: 0px;
-	font-size: 13px;
+	margin-right: 1px;
+	font-size: 12px;
 }
 
 .accountbtn{
-	font-size: 13px;
+	font-size: 12px;
 	width: 130px;
-	padding: 12px 0px;
+	padding: 12px 0px 13px 0px;
 }
 
 #btnouter {
@@ -5079,21 +5079,20 @@ footer .image-divider.fixed-height{
 }
 
 .kakaopaybtn{
-	font-size: 11px;
-	padding: 10px 0px;
+	font-size: 10px;
+	padding: 10px 0px 11px 0px;
 	width: 110px;
 }
 
 .kakaopaybtn a i.de-icon-comment{
-	margin-right: 0px;
-	font-size: 11px;
-	vertical-align: text-bottom;
+	margin-right: 1px;
+	font-size: 10px;
 }
 
 .accountbtn{
-	font-size: 11px;
+	font-size: 10px;
 	width: 110px;
-	padding: 10px 0px;
+	padding: 10px 0px 11px 0px;
 }
 
 #btnouter{
