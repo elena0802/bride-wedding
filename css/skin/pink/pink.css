@@ -40,11 +40,11 @@ h4 a:hover, h5 a:hover, h6 a:hover{
 /* 03.1 Parent Menu								 */
 /* ----------------------------------------------*/
 #nav-menu > li:before{
-	color:#000;
+	/* color:#254252; */
 }
 
 #nav-menu > li a:hover{
-	color:#000;
+	color:#666
 }
 
 /* 03.1.1 Transparent 							 */
@@ -295,7 +295,7 @@ form .btn-primary.active,
 	background: #Fa7991; 
 }
 
-@media screen and (max-width: 991px) {	
+@media screen and (max-width: 1024px) {	
 /*===============================================*/
 /* 03. NAV MENU	 	 							 */
 /*===============================================*/
@@ -304,12 +304,12 @@ form .btn-primary.active,
 /* 03.1 Parent Menu 						     */
 /* ----------------------------------------------*/
 #nav-menu li a:hover{
-	background-color: #f6f6f6;
-	color:#000;
+	background-color: #f8f5f5;
+	color:#af4d5d;
 }
 
 .transparent #nav-menu li a:hover{
-	background-color: #f6f6f6;
-	color:#000;
+	background-color: #f8f5f5;
+	color:#254252;
 }
 }

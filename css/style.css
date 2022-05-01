@@ -459,7 +459,7 @@ img.with-border{
 	margin:0; 
 	/* padding:45px 0 0 0; */ /* Deleted */
 	font-family: 'MaruBuri', serif;
-	font-size:13px;
+	font-size:14px;
 	z-index:1000;
 	vertical-align: middle;
 }
@@ -534,7 +534,7 @@ img.with-border{
 
 #nav-menu > li a{
 	display:inline-block;
-	padding:30px 17px; /* Nav Bar Eidt */
+	padding:30px 17px; /* Nav Bar Edit */
 	color:#666;
 	text-decoration:none;
 }
@@ -931,7 +931,7 @@ img.with-border{
 
 .css-logo-text{
 	padding-top:0px; 
-	font-size:20px;
+	font-size:22px;
 	font-family: 'EB Garamond', serif;
 	font-weight: 700;
 }
@@ -2783,16 +2783,10 @@ footer .image-divider.fixed-height{
 	font-size: 15px;
 	font-family: 'MaruBuriExtraLight', serif;
 	text-decoration: none;
-	border: 1px solid rgba(255, 255, 255, 0.3);
-	/*background-color: rgba(0, 0, 0, 0.2);*/
+	border: 0.5px solid rgba(255, 255, 255, 0.3);
+	background-color: rgba(0, 0, 0, 0.3);
 	border-radius: 70px;
 	padding: 25px 40px;
-}
-
-#kakao-link-btn img{
-	width: 20px;
-	height: auto;
-	margin-right: 5px;
 }
 
 #thank-you{
@@ -3276,7 +3270,7 @@ h2#dont-miss-it-title{
 	outline: none;
 	font-size: 20px;
 	transition: 0.4s;
-	border: 0.5px #ebdbdb;
+	border: 0.5px #e4cece;
 	border-style: solid solid dashed solid;
 	margin-top: 15px;
   }
@@ -3315,14 +3309,15 @@ h2#dont-miss-it-title{
 	padding: 15px 0px;
 }
 
-.kakaopaybtn img{
-	width: 18px; 
-	margin-right: 3px; 
-	margin-bottom: 2px;
-}
-
 .kakaopaybtn a{
 	color: #191919;
+	text-decoration: none;
+}
+
+.kakaopaybtn a i.de-icon-comment{
+	margin-right: 2px;
+	font-size: 17px;
+	vertical-align: text-bottom;
 }
 
 .accountbtn {
@@ -3509,6 +3504,10 @@ button.mfp-close, button.mfp-arrow {
 	/* bottom: -100px */
 }
 
+#nav-menu > li a{
+	padding: 20px 17px;
+}
+
 /* ----------------------------------------------*/
 /* 02.1 Width & Color (Nav Bar)			 		 */
 /* ----------------------------------------------*/
@@ -3516,7 +3515,7 @@ button.mfp-close, button.mfp-arrow {
 /* 02.1.2 Fluid-width */
 #nav-bar.fluid-width #nav-wrapper,
 #nav-bar.fixed-width #nav-wrapper{
-	padding:0 20px 0 30px;
+	padding:0 20px 0 20px;
 	/*bottom: 20px;*/
 	/* padding: 20px 30px */
 }
@@ -3607,6 +3606,12 @@ button.mfp-close, button.mfp-arrow {
 	width:100%;
 	color:#666;
 	border-bottom:solid thin #f4f2f2;
+	position: relative;
+}
+
+#nav-menu .first-child a{ /* Added */
+	color:#666;
+	border-top:solid thin #f4f2f2;
 	position: relative;
 }
 
@@ -4723,10 +4728,10 @@ h2#dont-miss-it-title{
 	padding: 12px 0px;
 }
 
-.kakaopaybtn img{
-	width: 13px;
-	margin-right: 1px;
-	margin-bottom: 1px;
+.kakaopaybtn a i.de-icon-comment{
+	margin-right: 0px;
+	font-size: 13px;
+	vertical-align: text-bottom;
 }
 
 .accountbtn{
@@ -4860,23 +4865,6 @@ h2#dont-miss-it-title{
 
 /* LOGO */
 
-#nav-bar.fluid-width #nav-wrapper,
-#nav-bar.fixed-width #nav-wrapper{
-	padding:15px 15px;
-	bottom: 15px;
-	/* padding: 20px 30px */
-}
-
-.mobile-logo{
-	display: block;
-	font-size: 16px;
-	padding: 18px 0px;
-}
-
-#mobile-nav{
-	font-size: 15px;
-}
-
 #banner-date{
 	font-size: 10px;
 }
@@ -4962,9 +4950,11 @@ h2#dont-miss-it-title{
 /* CALENDAR						 */
 /* ----------------------------------------------*/
 
-@media screen and (max-width: 290px) {
-	.weekdays li, .days li {width: 12.2%;}
-  }
+
+.weekdays li, .days li {
+	width: 12.2%;
+}
+
 
 /* 14.3 Our Story Section						 */
 /* ----------------------------------------------*/
@@ -5090,9 +5080,10 @@ footer .image-divider.fixed-height{
 	width: 110px;
 }
 
-.kakaopaybtn img{
-	width: 10px;
-	margin-bottom: 2px;
+.kakaopaybtn a i.de-icon-comment{
+	margin-right: 0px;
+	font-size: 11px;
+	vertical-align: text-bottom;
 }
 
 .accountbtn{
