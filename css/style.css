@@ -2754,6 +2754,7 @@ form .has-error .btn-primary{
 /* ----------------------------------------------*/
 /* 12.5 Footer Section				 			 */
 /* ----------------------------------------------*/
+
 footer .image-divider.fixed-height{
 	height:550px;
 }
@@ -2783,8 +2784,8 @@ footer .image-divider.fixed-height{
 	font-size: 15px;
 	font-family: 'MaruBuriExtraLight', serif;
 	text-decoration: none;
-	border: 0.5px solid rgba(255, 255, 255, 0.3);
-	background-color: rgba(0, 0, 0, 0.3);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	background-color: rgba(0, 0, 0, 0.5);
 	border-radius: 70px;
 	padding: 25px 40px;
 }
@@ -3280,7 +3281,7 @@ h2#dont-miss-it-title{
 	content: '\f107';
 	color: #af4d5d;
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 25px;
 	float: right;
 	margin-left: 5px;
   }
@@ -5066,7 +5067,7 @@ footer .image-divider.fixed-height{
 }
 
 .accordion2:after{
-	font-size: 16px;
+	font-size: 17px;
 }
 
 .accountinfo{
