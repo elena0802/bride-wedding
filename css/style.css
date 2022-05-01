@@ -2586,10 +2586,16 @@ form .has-error .btn-primary{
 	margin-bottom:40px;
 }
 
+.story-qna{
+	margin-bottom: 30px;
+}
+
+.story-qna p{
+	margin-bottom: 10px;
+}
+
 .qna-title{
 	font-family: 'MaruBuriBold', serif;
-	line-height:2em;
-	font-size: 1.1em;
 }
 
 .interview-btn{
