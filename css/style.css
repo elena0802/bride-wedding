@@ -185,6 +185,12 @@
     font-style: normal;
 }
 
+@import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+
+.nanummyeongjo * {
+ font-family: 'Nanum Myeongjo', serif;
+}
+
 /*===============================================*/
 /* 00. PRELOADER		 						 */
 /*===============================================*/
@@ -2607,6 +2613,7 @@ form .has-error .btn-primary{
 	font-family: 'EB Garamond', serif;
 	font-weight: 400;
 	font-size: 0.8em;
+	margin-top: 3px;
 }
 
 #interview-btn-kr{
