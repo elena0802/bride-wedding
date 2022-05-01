@@ -1344,6 +1344,7 @@ img.with-border{
 
 .section-title h2{
 	font-size:35px; /*same size with h1*/
+	
 }
 
 .section-title img{
@@ -2781,7 +2782,7 @@ footer .image-divider.fixed-height{
 
 #kakao-link{
 	text-align: center;
-	margin-top: 120px;
+	margin-top: 150px;
 }
 
 #kakao-link-btn{
@@ -2790,7 +2791,7 @@ footer .image-divider.fixed-height{
 	font-family: 'MaruBuriExtraLight', serif;
 	text-decoration: none;
 	border: 1px solid rgba(255, 255, 255, 0.3);
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 0.3);
 	border-radius: 70px;
 	padding: 25px 40px;
 }
