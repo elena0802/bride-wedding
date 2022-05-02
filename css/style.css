@@ -2651,6 +2651,8 @@ form .has-error .btn-primary{
 	color: #6a6a6a;
 }
 
+
+
 .qna-title{
 	font-family: 'MaruBuriSemiBold', serif;
 }
@@ -3123,7 +3125,7 @@ footer .image-divider.fixed-height{
 	font-size: 16px;
 	margin-bottom: 0px;
 	margin-left: 10px;
-	font-family: 'MaruBuri', serif;
+	font-family: 'MaruBuriSemiBold', serif;
 }
 
 #where-when .location-info p{
@@ -4666,7 +4668,6 @@ p{
 
 #where-when .location-info h3{
 	font-size: 15px;
-	font-family: 'MaruBuri', serif;
 	margin-left: 5px;
 }
 
@@ -4674,7 +4675,6 @@ p{
 	font-size: 13px;
 	margin-left: 5px;
 	margin-bottom: 5px;
-	font-family: 'MaruBuriSemiBold', serif;
 }
 
 #where-when .location-info p{
@@ -5063,7 +5063,6 @@ h2#dont-miss-it-title{
 
 #where-when .location-info h3{
 	font-size: 13px;
-	font-family: 'MaruBuri', serif;
 }
 
 #where-when .location-info h4{
