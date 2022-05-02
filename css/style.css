@@ -1491,9 +1491,11 @@ img.with-border{
 hr.line-divider{
 	height:2px;
 	border:none;
-	color:#e1dddd;
-	background-color:#e1dddd; 
-	margin:50px 0
+	/*color:#e1dddd;*/
+	/*background-color:#e1dddd;*/
+	color: #e8dede;
+	background-color: #e8dede;
+	margin:50px 0px;
 }
 
 /* 07.2.9 HEART DIVIDER							 */
@@ -1725,9 +1727,10 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 /* 07.2.13 Popup Template						 */
 /*-----------------------------------------------*/
 #popup-template{
-	width:900px;
-	margin:30px auto; 
-	background-color:#FFF;
+	width:100%;
+	margin:0px auto; 
+	background-color:#f8f5f5;
+	background-image: url("https://www.transparenttextures.com/patterns/rice-paper-2.png");
 }
 
 #popup-template #main-image{
@@ -1747,7 +1750,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 }
 
 #popup-template #the-content{
-	padding:35px 75px;
+	padding:50px 75px 90px 75px;
 }
 
 #popup-template #the-content #socialnetwork-icon{
@@ -2591,11 +2594,13 @@ form .has-error .btn-primary{
 }
 
 .story-qna p{
-	margin-bottom: 10px;
+	margin-bottom: 15px;
+	color: #6a6a6a;
+	font-family: 'MaruBuri', serif;
 }
 
 .qna-title{
-	font-family: 'MaruBuriBold', serif;
+	font-family: 'MaruBuriSemiBold', serif;
 }
 
 .interview-btn{
@@ -3812,9 +3817,7 @@ button.mfp-close, button.mfp-arrow {
 /*-----------------------------------------------*/
 /* 07.2.13 Popup Template						 */
 /*-----------------------------------------------*/
-#popup-template{
-	width:90%;
-}
+
     
 /* ----------------------------------------------*/
 /* 09.1 Image 									 */
@@ -4143,6 +4146,15 @@ p{
 .parents-name .pink-heart{
 	font-size: 15px;
 }
+
+/* ----------------------------------------------*/
+/* POPUP TEMPLATE						 */
+/* ----------------------------------------------*/	
+
+#popup-template #the-content{
+	padding:35px 30px 70px 30px;
+}
+
 /* ----------------------------------------------*/
 /* CALENDAR							 */
 /* ----------------------------------------------*/	
@@ -4385,11 +4397,14 @@ p{
 /*-----------------------------------------------*/
 /* 07.2.13 Popup Template						 */
 /*-----------------------------------------------*/
-#popup-template #the-content{
-	padding-right:30px;
-	padding-left:30px;
-	text-align:center;
+#popup-template{
+	width:100%;
 }
+
+#popup-template #the-content{
+	padding:30px 20px 70px 20px;
+}
+
     
 /* ----------------------------------------------*/
 /* 09.1 Image & Space								 */
