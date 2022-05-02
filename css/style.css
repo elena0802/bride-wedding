@@ -1729,7 +1729,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 #popup-template{
 	width:100%;
 	margin:0px auto; 
-	background-color:#f8f5f5;
+	background-color:#fff;
 	background-image: url("https://www.transparenttextures.com/patterns/rice-paper-2.png");
 }
 
