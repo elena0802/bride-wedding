@@ -1750,7 +1750,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 }
 
 #popup-template #the-content{
-	padding:50px 75px 90px 75px;
+	padding:50px 75px;
 }
 
 #popup-template #the-content #socialnetwork-icon{
@@ -2589,20 +2589,6 @@ form .has-error .btn-primary{
 	margin-bottom:40px;
 }
 
-.story-qna{
-	margin-bottom: 30px;
-}
-
-.story-qna p{
-	margin-bottom: 15px;
-	color: #6a6a6a;
-	font-family: 'MaruBuri', serif;
-}
-
-.qna-title{
-	font-family: 'MaruBuriSemiBold', serif;
-}
-
 .interview-btn{
 	font-size: 18px;
 	font-family: 'MaruBuri', serif;
@@ -2630,6 +2616,48 @@ form .has-error .btn-primary{
 #interview-btn-kr{
 	float: right;
 	color: #fff;
+}
+
+/*          STORY POPUP TEMPLATE            */
+/* ----------------------------------------------*/
+#popup-template .section-title{
+	margin-bottom: 40px;
+}
+
+#popup-template .section-title h2{
+	font-size: 28px;
+}
+
+.story-qna{
+	margin-bottom: 30px;
+}
+
+.story-qna p{
+	margin-bottom: 15px;
+	color: #6a6a6a;
+	font-family: 'MaruBuri', serif;
+}
+
+.qna-title{
+	font-family: 'MaruBuriSemiBold', serif;
+}
+
+.test{
+	display: none;
+}
+
+.load-more{
+	background-color:#000;
+	color:#fff !important;
+	padding:5px 10px;
+	border-radius:4px;
+	font-size:20px;
+	margin:50px 0;
+	display:inline-block;
+}
+.load-more:hover{
+	background-color:blue;
+	text-decoration:none;
 }
 
 /* ----------------------------------------------*/
@@ -3126,6 +3154,7 @@ footer .image-divider.fixed-height{
     height: auto;
 	width: 100%;
 }
+
 
 /* ----------------------------------------------*/
 /* 14.6 Don't Miss It / Countdown Section / Photo Divider with Text		 */
@@ -4152,7 +4181,11 @@ p{
 /* ----------------------------------------------*/	
 
 #popup-template #the-content{
-	padding:35px 30px 70px 30px;
+	padding:35px 30px;
+}
+
+#popup-template .section-title h2{
+	font-size: 24px;
 }
 
 /* ----------------------------------------------*/
@@ -4402,7 +4435,15 @@ p{
 }
 
 #popup-template #the-content{
-	padding:30px 20px 70px 20px;
+	padding:30px 20px;
+}
+
+#popup-template .section-title{
+	margin-bottom: 30px;
+}
+
+#popup-template .section-title h2{
+	font-size: 20px;
 }
 
     
@@ -4982,7 +5023,7 @@ h2#dont-miss-it-title{
 }
 
 
-/* 14.3 Our Story Section						 */
+/* 14.3 Our Story Section & POPUP TEMPLATE						 */
 /* ----------------------------------------------*/
 
 #our-story h3{
@@ -4991,6 +5032,10 @@ h2#dont-miss-it-title{
 
 #end-of-story h2{
     font-size: 16px;
+}
+
+#popup-template .section-title h2{
+	font-size: 15px;
 }
 
 /* 14.4 Where When Section						 */
