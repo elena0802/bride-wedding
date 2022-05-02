@@ -2584,6 +2584,7 @@ form .has-error .btn-primary{
 	transform: rotate(-10deg)
 }
 
+
 .couple-excerpt{
 	margin-top:40px;
 	margin-bottom:40px;
@@ -2636,6 +2637,18 @@ form .has-error .btn-primary{
 	margin-bottom: 15px;
 	color: #6a6a6a;
 	font-family: 'MaruBuri', serif;
+}
+
+#couple p{
+	color: #6a6a6a;
+}
+
+#more-events p{
+	color: #6a6a6a;
+}
+
+#where-when p{
+	color: #6a6a6a;
 }
 
 .qna-title{
