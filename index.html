@@ -971,19 +971,7 @@
                         </div>                        
                    </div><!--END of ROW-2-->   
               	</div>
-                <script type="text/javascript">
-                    $(window).on('load', function(){
-                        var owl = $(".owl-carousel");
-                        owl.owlCarousel({
-                            items: 1,
-                            autoplay: true,
-                            autoPlaySpeed: 5000,
-                            autoPlayTimeout: 5000,
-                            autoplayHoverPause: true,
-                            responsiveBaseElement: 'body'
-                        });
-                    });
-                </script>
+                
             </section>
 
             <!-- PHOTO DIVIDER
@@ -1495,6 +1483,19 @@
                 alert('계좌번호가 복사되었습니다');
             });
             
+        </script>
+
+        <script type="text/javascript">
+            $(window).on('load', function(){
+                $('.owl-carousel').owlCarousel({
+                    items: 1,
+                    autoplay: true,
+                    autoPlaySpeed: 5000,
+                    autoPlayTimeout: 5000,
+                    autoplayHoverPause: true
+                    
+                });
+            });
         </script>
 
 
