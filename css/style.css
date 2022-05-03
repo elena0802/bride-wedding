@@ -276,6 +276,7 @@ p{
 	font-size:16px;
 	line-height:28px;
 	margin-bottom:25px;
+	color: #6a6a6a;
 	
 }
 
@@ -2639,20 +2640,6 @@ form .has-error .btn-primary{
 	font-family: 'MaruBuri', serif;
 }
 
-#couple p{
-	color: #6a6a6a;
-}
-
-#more-events p{
-	color: #6a6a6a;
-}
-
-#where-when p{
-	color: #6a6a6a;
-}
-
-
-
 .qna-title{
 	font-family: 'MaruBuriSemiBold', serif;
 }
@@ -3242,6 +3229,17 @@ h2#dont-miss-it-title{
 	font-weight: 400;
 	letter-spacing: 0.1em;
 	font-size: 1.1em;
+}
+
+.event-item img{
+	position: relative;
+}
+
+.event-item i{
+	position: absolute;
+	top: 150px;
+	right: 10px;
+	font-size: 30px;
 }
 
 
