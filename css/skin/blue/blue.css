@@ -18,7 +18,7 @@
 /* 01.1 Background Color						 */
 /* ----------------------------------------------*/
 #greeting{
-	background-color: #f8f5f5;
+	background-color: #f5f7f8;
 	/*background-color: #f9f9f9;*/
 }
 
@@ -27,15 +27,15 @@
 }
 
 #parents{
-	background-color: #f8f5f5;
+	background-color: #f5f7f8;
 }
 
 #gallery-section{
-	background-color: #f8f5f5; 
+	background-color: #f5f7f8;
 }
 
 #more-events{
-	background-color: #f8f5f5;
+	background-color: #f5f7f8;
 }
 
 #gift-section{
@@ -43,7 +43,7 @@
 }
 
 #where-when{
-	background-color: #f8f5f5;
+	background-color: #f5f7f8;
 }
 /* ----------------------------------------------*/
 /* 01.2 TEXT DECORATION    						 */
@@ -52,7 +52,7 @@
 /* 01.2.1 OVERALL                              */
 /* ----------------------------------------------*/
 .title-en{
-	color: #b79999;
+	color: #99a8b7;
 }
 
 .bride-text{
@@ -67,19 +67,19 @@
 /* ----------------------------------------------*/
 /* line in story popup template */
 hr.line-divider{
-	background-color: #e8dede;
-	color: #e8dede;
+	background-color: #dee3e8;
+	color: #dee3e8;
 }
 
 /*===============================================*/
 /* 02. MAIN SLIDER 	 							 */
 /*===============================================*/
 .slide-title #banner-date{
-	color: #ffbcda;
+	color: #bcdaff;
 }
 
 .slide-title h1 small{
-	color:#ffbcda;
+	color: #bcdaff;
 }
 
 /*===============================================*/
@@ -106,11 +106,11 @@ hr.line-divider{
 }
 
 .css-logo-text small{
-	color: #CA9A9F; 
+	color: #94A5C5; 
 }
 
 .mobile-logo-text small{
-	color: #CA9A9F;
+	color: #94A5C5;
 }
 
 /*===============================================*/
@@ -125,7 +125,7 @@ hr.line-divider{
 /* 07.2.9 HEART DIVIDER							 */
 /* ----------------------------------------------*/
 .pink-heart{
-	color:#FA7991; 
+	color:#Fa7991 /*slide title color line*/
 }
 
 
@@ -290,7 +290,7 @@ form .btn-primary.active,
 /* ----------------------------------------------*/
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span{
-	background: #Fa7991; 
+	background: #FA7991;
 }
 
 /* ----------------------------------------------*/
@@ -320,6 +320,7 @@ hr.line-groom{
 	margin: 0px;
 }
 
+
 /* 14.7.1 Gift for Bride                         */
 /* ----------------------------------------------*/
 .accordion2 {
@@ -347,7 +348,7 @@ hr.line-bride{
 /* 14.8 Where When Section              		 */
 /* ----------------------------------------------*/
 #address-icon{
-	background-color: #d0bbbb;
+	background-color: #bbc6d0;
 }
 
 /* ----------------------------------------------*/
@@ -368,6 +369,6 @@ hr.line-bride{
 /* 03.1 Parent Menu 						     */
 /* ----------------------------------------------*/
 #nav-menu li a:hover{
-	background-color: #f8f5f5;
-	color:#af4d5d;
+	background-color: #f5f7f8;
+	color:#395a8c;
 }

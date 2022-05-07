@@ -3295,9 +3295,10 @@ h2#dont-miss-it-title{
 
 /* Gift for Groom */
 .accordion1 {
-	background-color: #EDEEF1;
-	color: rgb(57, 90, 140);
-	border: 0.5px #d3dae4;
+	background-color: #e7edf2;
+	color: #395a8c;
+	border-width: 0.5px;
+	border-color: #ced9e4;
 	border-style: solid solid dashed solid;
 	cursor: pointer;
 	padding: 18px;
@@ -3307,31 +3308,35 @@ h2#dont-miss-it-title{
 	font-size: 20px;
 	transition: 0.4s;
 	margin-top: 15px;
-  }
-  
+}  
   
 .accordion1:after {
 	font-family:'FontAwesome';
 	content: '\f107';
-	color: rgb(57, 90, 140);
+	color: #395a8c;
 	font-weight: bold;
 	font-size: 22px;
 	float: right;
 	margin-left: 5px;
-  }
+}
   
-.accordion2.active:after {
+.accordion1.active:after {
 	content: "\f106";
 
-  }
+}
   
 .panel1 {
-	background-color: #EDEEF1;
+	background-color: #f4f7f9;
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
-	border: 0.5px solid #d3dae4;
-  }
+	border: 0.5px solid #dbe3eb;
+}
+
+hr.line-groom{
+	border: 0.5px dashed #dee3e8;
+	margin: 0px;
+}
 
 /* Gift for Bride */
 .accordion2 {
@@ -3345,10 +3350,11 @@ h2#dont-miss-it-title{
 	outline: none;
 	font-size: 20px;
 	transition: 0.4s;
-	border: 0.5px #e4cece;
+	border-width: 0.5px;
+	border-color: #e4cece;
 	border-style: solid solid dashed solid;
 	margin-top: 15px;
-  }
+}
   
 .accordion2:after {
 	font-family:'FontAwesome';
@@ -3358,11 +3364,11 @@ h2#dont-miss-it-title{
 	font-size: 25px;
 	float: right;
 	margin-left: 5px;
-  }
+}
   
-.accordion1.active:after {
+.accordion2.active:after {
 	content: "\f106";
-  }
+}
   
 .panel2 {
 	background-color: #f9f4f4;
@@ -3370,7 +3376,12 @@ h2#dont-miss-it-title{
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
 	border: 0.5px solid #ebdbdb;
-  }
+}
+
+hr.line-bride{
+	border: 0.5px dashed #e8dede; 
+	margin: 0px;
+}
 
 .kakaopaybtn {
 	background-color: #FEE500 ; /* kakao yellow */
