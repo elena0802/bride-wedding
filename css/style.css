@@ -204,7 +204,6 @@
 /* 01. GENERAL			 						 */
 /*===============================================*/
 body{
-/*	font-family: 'Arvo', serif;	*/
     font-family: 'MaruBuri', serif;
 	font-size:15px;
 }
@@ -241,7 +240,7 @@ h4, h5, h6
 }
 
 h1, .h1{
-	font-size:36px;
+	font-size:40px;
 }
 
 h2, .h2{
@@ -321,7 +320,6 @@ img.with-border{
 	text-transform: uppercase;
 	text-align: center;
 	letter-spacing: 0.3em;
-	color: #b79999;
 }
 
 .title-kr{
@@ -545,7 +543,7 @@ img.with-border{
 }
 
 #nav-menu > li a:hover{
-	color:#fa7991;
+	color:#000;
 }
 
 /* 03.1.1 Transparent 							 */
@@ -587,7 +585,7 @@ img.with-border{
 	list-style-type:none;
 	padding:0;
 	text-align:left;
-	border-top:solid 3px #fa7991;
+	/*border-top:solid 3px #fa7991; Deleted */
 }
 
 #nav-menu li:hover > ul{
@@ -2551,16 +2549,16 @@ form .has-error .btn-primary{
 #greeting{
 	padding:140px 0 100px 0;
 	background-color: #f8f5f5;
-	/*background-color: #f9f9f9;*/
 }
 
 #couple{
 	padding:140px 0 100px 0;
+	background-color: #FFF;
 }
 
 #parents{
 	padding:140px 0 100px 0;
-	background-color: #f9f9f9;
+	background-color: #f8f5f5;
 }
 
 #parents-1{
@@ -2598,7 +2596,7 @@ form .has-error .btn-primary{
 	background-color: #254252;
 	/*background-color: #222222;*/
 	border: none;
-	color: #FFF;
+	color: yellow;
 	padding: 25px 35px;
 	width: 500px;
 	margin-top: 20px;
@@ -2928,11 +2926,28 @@ footer .image-divider.fixed-height{
 	font-weight: 500;
 	letter-spacing:5px; 
 	font-size:17px;
+	color: #ffd5d5;
 }
 
 #banner-name{
-	font-family: 'MaruBuriExtraLight', serif;
+	font-family: 'MaruBuriSemiBold', serif;
 	font-size: 20px;
+	letter-spacing: 0.1em;
+}
+
+#banner-name small{
+	letter-spacing: 0em;
+	font-family: 'MaruBuriExtraLight', serif;
+}
+
+.slide-title h1{
+	font-family: 'Nanum Myeongjo', serif; 
+	margin-top: 10px; 
+	margin-bottom: 15px;
+}
+
+.slide-title h1 small{
+	color:#ffd5d5;
 }
 
 /* ----------------------------------------------*/
@@ -3281,9 +3296,9 @@ h2#dont-miss-it-title{
 /* Gift for Groom */
 .accordion1 {
 	background-color: #EDEEF1;
+	color: rgb(57, 90, 140);
 	border: 0.5px #d3dae4;
 	border-style: solid solid dashed solid;
-	color: rgb(57, 90, 140);
 	cursor: pointer;
 	padding: 18px;
 	width: 100%;
@@ -4073,7 +4088,7 @@ h4, h5, h6
 }
 
 h1, .h1{
-	font-size:33px;
+	font-size:35px;
 }
 
 h2, .h2{
@@ -4318,7 +4333,7 @@ h4, h5, h6
 }
 
 h1, .h1{
-	font-size:27px;
+	font-size:30px;
 }
 
 h2, .h2{
@@ -4880,7 +4895,7 @@ h4, h5, h6
 }
 
 h1, .h1{
-	font-size:22px;
+	font-size:25px;
 }
 
 h2, .h2{

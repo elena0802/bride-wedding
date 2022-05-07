@@ -1,106 +1,107 @@
 /*===============================================*/
-/* Added	 						 */
-/*===============================================*/
-
-a:hover .de-icon.circle.outline.light{
-	background-color:transparent;
-	color:#Fa7991;
-	border:1px solid #Fa7991;
-}
-
-/*===============================================*/
 /* 00. PRELOADER		 						 */
 /*===============================================*/
+
+#preloader{
+	background-color: #f8f5f5;
+}
+
 .heart-animation i{
-	color:#Fa7991;
-}
-
-.top-heart{
-	color:#Fa7991;
-}
-
-.her-name{
-	color:#Fa7991;
+	color: #FA7991;
 }
 
 /*===============================================*/
 /* 01. GENERAL			 						 */
-/*===============================================*/
+/*===============================================
 
-h1 a:hover, h2 a:hover, h3 a:hover, 
-h4 a:hover, h5 a:hover, h6 a:hover{
-	color:#Fa7991;
+/* ----------------------------------------------*/
+/* 01.1 Background Color						 */
+/* ----------------------------------------------*/
+#greeting{
+	background-color: #f8f5f5;
+	/*background-color: #f9f9f9;*/
+}
+
+#couple{
+	background-color: #fff;
+}
+
+#parents{
+	background-color: #f8f5f5;
+}
+
+#gallery-section{
+	background-color: #f8f5f5; 
+}
+
+#more-events{
+	background-color: #f8f5f5;
+}
+
+#gift-section{
+	background-color: #fff;
+}
+
+#where-when{
+	background-color: #f8f5f5;
+}
+/* ----------------------------------------------*/
+/* 01.2 TEXT DECORATION    						 */
+/* ----------------------------------------------*/
+
+/* 01.2.1 OVERALL                              */
+/* ----------------------------------------------*/
+.title-en{
+	color: #b79999;
+}
+
+.bride-text{
+	color: #CA9A9F;
+}
+
+.groom-text{
+	color: #94A5C5;
+}
+
+/* 01.2.2 LINE                              */
+/* ----------------------------------------------*/
+/* line in story popup template */
+hr.line-divider{
+	background-color: #e8dede;
+	color: #e8dede;
+}
+/* line in gift section panel */
+hr.line-bride{
+	border: 0.5px dashed #e8dede; 
+	margin: 0px;
+}
+
+hr.line-groom{
+
+}
+
+/*===============================================*/
+/* 02. MAIN SLIDER 	 							 */
+/*===============================================*/
+.slide-title #banner-date{
+	color: #ffd5d5;
+}
+
+.slide-title h1 small{
+	color:#ffd5d5;
 }
 
 /*===============================================*/
 /* 03. NAV MENU	 	 							 */
 /*===============================================*/
 
-/* ----------------------------------------------*/
-/* 03.1 Parent Menu								 */
-/* ----------------------------------------------*/
-#nav-menu > li:before{
-	/* color:#254252; */
+#nav-menu > li a{
+	color: #6a6a6a;
 }
 
 #nav-menu > li a:hover{
-	color:#666
+	color: #000;
 }
-
-/* 03.1.1 Transparent 							 */
-/* ----------------------------------------------*/
-.transparent #nav-menu > li a:hover{
-	color:#Fa7991;
-}
-
-/* ----------------------------------------------*/
-/* 03.2 Child Menu								 */
-/* ----------------------------------------------*/
-#nav-menu ul{
-	border-top-color:#Fa7991;
-}
-
-#nav-menu ul li a:hover{
-	background-color:#Fa7991;
-}
-
-
-/* ----------------------------------------------*/
-/* 04.2 Menu Icon					 			 */
-/*-----------------------------------------------*/
-
-/* 04.2.1 Standard Menu Icon */
-/* ----------------------------------------------*/
-#menu-icon.white a:hover i, #menu-icon a:hover i{
-	color:#Fa7991;
-}
-
-/* 04.2.2 Sticky Menu Icon */
-/* ----------------------------------------------*/
-#sticky-menuicon a:hover{
-	background-color:#Fa7991;
-}
-
-/* ----------------------------------------------*/
-/* 04.3 Sidebar Menu				 			 */
-/*-----------------------------------------------*/
-
-/* 04.3.2 Close Button */
-/* ----------------------------------------------*/
-#close-button:hover i{
-	color:#Fa7991;
-}
-
-/* 04.3.3 Parent Menu */
-/* ----------------------------------------------*/
-#side-nav-menu > li > a:before{
-	color:#Fa7991;
-}
-
-#side-nav-menu > li a:hover{
-	color:#Fa7991;
-}
-
 
 /*===============================================*/
 /* 05. LOGO	 	 	 							 */
@@ -113,43 +114,27 @@ h4 a:hover, h5 a:hover, h6 a:hover{
 	background-color:transparent;
 }
 
+.css-logo-text small{
+	color: #CA9A9F; 
+}
 
-/*===============================================*/
-/* 06. MAIN-SLIDER					 		 	 */
-/*===============================================*/
-
-/* 06.5.6 Save The Date Title */
-/* ----------------------------------------------*/
-.pink-dot{
-	color: #Fa7991;
+.mobile-logo-text small{
+	color: #CA9A9F;
 }
 
 /*===============================================*/
 /* 07 PAGE										 */
 /*===============================================*/
 
-/* 07.1.6 Page Sidebar				 			 */
-/* ----------------------------------------------*/
-.sidebar-menu li a:hover{
-	color: #Fa7991;
-}
-
-
 /* ----------------------------------------------*/
 /* 07.2 PAGE ELEMENT	 	 					 */
 /* ----------------------------------------------*/
-
-/* 07.2.4 Title-Excerpt White Box				 */
-/* ----------------------------------------------*/
-.title-excerpt .custom-heart-icon{
-	color:#Fa7991 !important; 
-}
 
 
 /* 07.2.9 HEART DIVIDER							 */
 /* ----------------------------------------------*/
 .pink-heart{
-	color:#Fa7991; 
+	color:#FA7991; 
 }
 
 
@@ -167,9 +152,10 @@ a.de-button:hover, input[type=submit]:hover{
 
 /* 07.2.11 Banner Text				 			 */
 /* ----------------------------------------------*/
+
 .banner-text.withlove:after{
 	color:#Fa7991;
-}
+} 
 
 /*===============================================*/
 /* 08 ICON										 */
@@ -178,6 +164,15 @@ a.de-button:hover, input[type=submit]:hover{
 /*------------------------------------------------*/
 /* 08.2 Shape									  */
 /*------------------------------------------------*/
+
+/* 08.02.0 Added	 						 */
+/*===============================================*/
+
+a:hover .de-icon.circle.outline.light{
+	background-color:transparent;
+	color:#Fa7991;
+	border:1px solid #Fa7991;
+}
 
 /* 08.2.1 Default								  */
 /*------------------------------------------------*/
@@ -259,12 +254,24 @@ form .btn-primary.active,
 /*===============================================*/
 
 /* ----------------------------------------------*/
+/* 14.21 Greeting Section					     */
+/* ----------------------------------------------*/
+
+/* ----------------------------------------------*/
 /* 14.2 Couple Section							 */
 /* ----------------------------------------------*/
-.his-her-name .custom-heart{
-	background-color:#Fa7991;
+.interview-btn{
+	background-color: #254252;
+	color: #FFF;
 }
 
+#interview-btn-en{
+	color:#eab56f;
+}
+
+#interview-btn-kr{
+	color: #FFF;
+}
 
 /* ----------------------------------------------*/
 /* 14.3 Our Story Section						 */
@@ -274,26 +281,80 @@ form .btn-primary.active,
 }
 
 /* ----------------------------------------------*/
-/* 14.4 Where When Section						 */
+/* 14.4 Gallery Section						 */
 /* ----------------------------------------------*/
-.and{
-	color:#Fa7991; 
-}
 
 /* ----------------------------------------------*/
-/* 14.6 Don't Miss It / Countdown Section		 */
+/* 14.5 Don't Miss It / Countdown Section		 */
 /* ----------------------------------------------*/
 .circle-countdown .countdown-amount {
 	background-color:#Fa7991; 
 }
 
-/*===============================================*/
-/* 15. PLUGIN CUSTOM							 */
-/*===============================================*/
+/* ----------------------------------------------*/
+/* 14.6 More Events Section              		 */
+/* ----------------------------------------------*/
+
+/* 14.6.1 PLUGIN CUSTOM							 */
+/* ----------------------------------------------*/
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span{
 	background: #Fa7991; 
 }
+
+/* ----------------------------------------------*/
+/* 14.7 Gift Section                    		 */
+/* ----------------------------------------------*/
+
+/* 14.7.1 Gift for Groom                         */
+/* ----------------------------------------------*/
+.accordion1{ 
+	background-color: #EDEEF1;
+	color: rgb(57, 90, 140);
+	border: 0.5px #d3dae4;
+}
+
+.accordion1:after{
+	color: rgb(57, 90, 140);
+}
+
+.panel1{
+	background-color: #EDEEF1;
+	border: 0.5px solid #d3dae4;
+}
+
+/* 14.7.1 Gift for Bride                         */
+/* ----------------------------------------------*/
+.accordion2 {
+	background-color: #f2e7e7;
+	color: #af4d5d;
+	border: 0.5px #e4cece;
+}
+
+.accordion2::after{
+	color: #af4d5d;
+}
+
+.panel2{
+	background-color: #f9f4f4;
+	border: 0.5px solid #ebdbdb;
+}
+
+/* ----------------------------------------------*/
+/* 14.8 Where When Section              		 */
+/* ----------------------------------------------*/
+#address-icon{
+	background-color: #d0bbbb;
+}
+
+/* ----------------------------------------------*/
+/* 14.9 FOOTER                           		 */
+/* ----------------------------------------------*/
+
+
+/*===============================================*/
+/* 15. MEDIA VARIATION							 */
+/*===============================================*/
 
 @media screen and (max-width: 1024px) {	
 /*===============================================*/
@@ -306,10 +367,4 @@ form .btn-primary.active,
 #nav-menu li a:hover{
 	background-color: #f8f5f5;
 	color:#af4d5d;
-}
-
-.transparent #nav-menu li a:hover{
-	background-color: #f8f5f5;
-	color:#254252;
-}
 }
